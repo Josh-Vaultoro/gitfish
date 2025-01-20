@@ -1,4 +1,43 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# GitFish
+
+GitFish is a tool that analyzes GitHub commits and explains them in plain English for non-technical team members.
+
+## Setup
+
+1. Clone this repository
+2. Run `npm install`
+3. Copy `.env.example` to `.env` and fill in your GitHub and OpenAI API tokens
+4. Run `npm run dev` to start the development server
+
+## Environment Variables
+
+- `GITHUB_TOKEN`: Your GitHub personal access token
+- `OPENAI_API_KEY`: Your OpenAI API key
+
+## Usage
+
+1. Enter a GitHub repository URL
+2. Click "Analyze"
+3. View the commit analyses
+
+## Technologies
+
+- [Next.js](https://nextjs.org)
+- TypeScript
+- Tailwind CSS
+- shadcn/ui components
+- OpenAI API
+- GitHub API
+
+## Development
+
+The application runs on [http://localhost:3000](http://localhost:3000) in development mode.
+
+This project uses:
+- TypeScript for type safety
+- Tailwind CSS for styling
+- shadcn/ui for UI components
+- Next.js App Router
 
 ## Getting Started
 
